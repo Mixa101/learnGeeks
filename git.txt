@@ -7,3 +7,9 @@ git remote add origin ссылка на репозиторий  - привязы
 git add namefile/. - добавляет файлы в git 
 git commit -m '' - чекпоинт
 git push origin master/main - отправка в файла в репо
+
+
+полезные команды
+.gitignore
+git rm --cached namefile 
+git rm --cached -r namedir
