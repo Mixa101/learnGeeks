@@ -15,10 +15,10 @@ class Car:
     def __str__(self):
         return f'model : {self.model}\n year : {self.year}\n color : {self.color}'
 
-    def __len__(self):
+    def __len__(self):qweqwe
         return len(self.fars) * 2
     
-car1 = Car('Ford', 200, 'red')
+car1 = Car('Ford', 200, 'red')W
 car2 = Car('Toyota', 2020, 'black')
 car3 = Car('bmw', 2024, 'red')
 
