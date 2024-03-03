@@ -65,7 +65,7 @@ class villain(earth_hero):
         pass
     def crit(self):
         self.damage = self.damage ** 2
-
+        print(f'Damage up to {self.damage}')
 
 IronMan = earth_hero('Stark', 'IronMan', 'Mind', 100, 'We have a Hulk', 30)
 IronMan.get_name_hero()
@@ -79,5 +79,5 @@ Thor.say_catchphrase()
 Thor.say_phrase()
 
 Thanos = villain('Thanos', 'Mad Titan', 'infinity stones', 100, 'Couldn\'t accept defeat', 60)
-
+Thanos.crit()
 ### я не понял как что надо делать с CRIT 
